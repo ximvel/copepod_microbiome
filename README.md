@@ -18,6 +18,7 @@ very
 long
 code
 ```
-* a
-* b
-* c
+I used the following 3 R scripts to generate the ASV tables:
+* `code_a.R`
+* `code_b.R`
+* `code_c.R`
