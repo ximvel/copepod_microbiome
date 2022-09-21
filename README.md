@@ -7,7 +7,7 @@ The contaminant sequences were filtered using the “decontam” package, based 
 
 
 ## Statistical analysis and data visualization
-The following data was used for the anaylsis`taxa_copepod_microbiome_2020.csv`, `asvabundance_copepod_microbiome_2020.csv`, `metadata_copepod_microbiome_2020`. 
+The following data was used for the anaylsis`taxa_copepod_microbiome_2020.csv`, `asvabundance_copepod_microbiome_2020.csv`, `metadata_copepod_microbiome_2020`. To see sequences of the ASVs pleasee check: `asvabundance_taxa_merged_copepod_microbiome_2020.csv`. 
 
 Data analyses and visualization were conducted using the “phyloseq”, “vegan” and “ggplot2” packages in R, see following R script:`phyloseq_data_analysis.R`. 
 Alpha diversity indices (Shannon diversity and Chao richness) were calculated for the copepod microbiomes and seawater for each season, and significant differences across samples and seasons were estimated by two-way ANOVA. Post-hoc Tukey analyses were performed to compare the differences between the host-associated and the seawater microbiota, and between seasons. The major associated microbial families were illustrated in a heatmap, and a dendrogram analysis was performed with hierarchical clustering based on Bray–Curtis dissimilarity using the “pheatmap” package to analyze the microbial composition and similarity. Based on the observed family-level clusters, the associated microbiota per season were represented by chord diagram plots using the “circlize” package.
