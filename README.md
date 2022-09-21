@@ -22,3 +22,6 @@ I used the following 3 R scripts to generate the ASV tables:
 * `code_a.R`
 * `code_b.R`
 * `code_c.R`
+
+## Citation
+If you use the code in this repository, please cite the following paper:
