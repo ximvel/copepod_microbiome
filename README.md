@@ -18,7 +18,7 @@ The associated microbial core taxa of each copepod species and the seawater were
 
 The metabolic potential of the core microbiota in the seawater and copepod species was predicted from the 16S rRNA amplicon data using Tax4Fun2 [Tax4Fun tutorial](https://benjjneb.github.io/dada2/tutorial_1_8.html). The following data was used for the metabolic prediction: `core_ponticus_seq.fasta`, `core_ponticus.txt', `core_stylifera_seq.fasta`, `core_stylifera.txt', `core_nana_seq.fasta`, `core_nana.txt', `core_seawater_seq.fasta`, `core_seawater.txt'. We searched metabolic pathways that may be relevant to the metabolic interaction between the copepods and the associated microbiota (see the follwing data:`selected_ponticus_pathways.csv`, `selected_stylifera_pathways.csv`,`selected_nana_pathways.csv`, `selected_seawater_pathways.csv`) and performed a PCoA analysis (Bray-Curtis distances) to assess the specificity of the predicted functions to the specific core ASVs. The differentially abundant metabolic pathways between copepods (mean relative abundance across copepod species) and seawater were determined by the Kruskal-Wallis test and the p-values were adjusted for multiple testing. See following R script: `Tax4Fun2_data_analysis`. 
 
-##Scripts, data and methods are part of the following study:
+## Scripts, data and methods are part of the following study:
 Velasquez, X., Morov, A.R., Belkin, N., Kurt-Terbiyik, T., Rubin-Blum, M., Meron, D., Tchernov, D., & Guy-Haim, T. (2022). Feeding strategy and dietary preference shape the microbiome of epipelagic copepods in a warm nutrient-impoverished ecosystem. *Environmental DNA*, 00:1–18. https://doi.org/10.1002/edn3.357
 
 
